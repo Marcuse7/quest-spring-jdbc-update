@@ -5,7 +5,7 @@
     <title>Wild And Wizard - Wizard Result</title>
 </head>
 <body>
-<ul>
+<ul th:if="${wizard}">
     <li th:text="|Id: ${wizard.id}|">$id</li>
     <li th:text="|First name: ${wizard.firstName}|">$firstName</li>
     <li th:text="|Last name: ${wizard.lastName}|">$lastName</li>
